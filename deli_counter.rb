@@ -25,7 +25,7 @@ end
 def line(katz_deli) 
   line_statement = ()
    counter = 0
-  if katz_deli.length == 0
+  if katz_deli.length == 1
      "The line is currently empty."
   else
     katz_deli.each do |name|
