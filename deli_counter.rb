@@ -32,7 +32,7 @@ def line(katz_deli) 
       line_statement << "The line is currently: #{counter}. #{name}"
       counter += 1
     end
-     statement
+     line_statement
   end
 
 end
