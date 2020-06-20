@@ -23,9 +23,10 @@ end
 
 # returns: formatted string with names and places in line --> ex.  - "The line is currently: 1. Grace 2. Kent 3. Matz"
 def line(katz_deli) 
+  line_statement= []
   counter = 0
   statement = "The line is currently: "
-  if katz_deli.length == 0
+  if katz_deli.length == 1
      "The line is currently empty."
   else
     katz_deli.collect do |name|
