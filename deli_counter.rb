@@ -23,7 +23,7 @@ end
 
 # returns: formatted string with names and places in line --> ex.  - "The line is currently: 1. Grace 2. Kent 3. Matz"
 def line(katz_deli) 
-  line_statement = []
+  line_statement = ()
   counter = 0
   if katz_deli.length == 1
      "The line is currently empty."
