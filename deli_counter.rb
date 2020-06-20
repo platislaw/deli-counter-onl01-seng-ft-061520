@@ -25,12 +25,11 @@ end
 def line(katz_deli) 
   line_statement= []
   counter = 0
-  statement = "The line is currently: "
   if katz_deli.length == 1
      "The line is currently empty."
   else
     katz_deli.collect do |name|
-      statement << "#{counter}. #{name}"
+      line_statement << "The line is currently: #{counter}. #{name}"
       counter += 1
     end
      statement
